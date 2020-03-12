@@ -1,6 +1,6 @@
 {
-  "name": "component",
-  "version": "1.0.0",
+  "name": "example",
+  "version": "1.0.2",
   "description": "component React component",
   "main": "lib/index.js",
   "module": "es/index.js",
