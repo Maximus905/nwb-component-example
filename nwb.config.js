@@ -11,7 +11,7 @@ module.exports = {
   },
   webpack: {
     html: {
-      template: 'src/index.html',
+      template: 'demo/src/index.html',
       mountId: 'app',
       title: 'Demo page 2'
     }
