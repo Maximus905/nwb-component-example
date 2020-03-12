@@ -8,5 +8,12 @@ module.exports = {
         react: 'React'
       }
     }
+  },
+  webpack: {
+    html: {
+      template: 'src/index.html',
+      mountId: 'app',
+      title: 'Demo page 2'
+    }
   }
 }
