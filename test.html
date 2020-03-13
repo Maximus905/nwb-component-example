@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<script src="https://unpkg.com/react@16.1.1/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@16.1.1/umd/react-dom.development.js"></script>
+	<script src="example.js"></script>
+</head>
+<body>
+	<h1>Test</h1>
+	<div id="root"></div>
+	<div id="root2"></div>
+	<script type="text/javascript">
+		ReactDOM.render(
+          React.createElement(MyLibrary.Example1),
+          document.getElementById('root')
+        );
+        ReactDOM.render(
+          React.createElement(MyLibrary.Example2),
+          document.getElementById('root2')
+        );
+	</script>
+</body>
+</html>
