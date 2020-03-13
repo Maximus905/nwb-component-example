@@ -2,6 +2,8 @@
 ###### branches description:
   * singleComponent - example how to create package with 1 component
   * multiComponents - example how to create package with 2 components
-  * usingUMDModule - example of using UMD module created in multiComponents branch
+  * reactUmdExample - example of using UMD module created in multiComponents branch
+
+  [nwb documentation](https://github.com/insin/nwb#react-components-and-libraries)
 
 
