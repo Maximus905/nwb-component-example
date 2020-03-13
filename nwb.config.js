@@ -3,7 +3,8 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'y',
+      global: 'MyLibrary',
+      entry: './src/umd.js',
       externals: {
         react: 'React'
       }

@@ -1,13 +1,15 @@
 import React, {Component} from 'react'
 import {render} from 'react-dom'
 
-import Example from '../../src'
+import Example1 from '../../src/components/Example1'
+import Example2 from '../../src/components/Example2'
 
 class Demo extends Component {
   render() {
     return <div>
       <h1>Demo component</h1>
-      <Example/>
+      <Example1/>
+      <Example2/>
     </div>
   }
 }
