@@ -1,6 +1,6 @@
 {
-  "name": "example",
-  "version": "1.0.2",
+  "name": "@rsb/example",
+  "version": "1.0.1",
   "description": "component React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -28,7 +28,6 @@
     "@babel/node": "^7.8.7",
     "@babel/register": "^7.9.0",
     "babel-jest": "^25.2.6",
-    "bootstrap": "^4.4.1",
     "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.2",
     "enzyme-to-json": "^3.4.4",
@@ -38,7 +37,7 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
   },
-  "author": "",
+  "author": "maximus905",
   "homepage": "",
   "license": "MIT",
   "repository": "",
