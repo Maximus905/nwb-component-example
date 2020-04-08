@@ -1,10 +1,10 @@
 module.exports = {
   type: 'react-component',
+  polyfill: true,
   npm: {
     esModules: true,
     umd: {
-      global: 'MyLibrary',
-      entry: './src/umd.js',
+      global: 'MyLib',
       externals: {
         react: 'React'
       }
@@ -15,6 +15,23 @@ module.exports = {
       template: 'demo/src/index.html',
       mountId: 'app',
       title: 'Demo page 2'
+    },
+    styles: {
+      css: [
+        {
+          include: /\.css$/,
+          exclude: /\.module\.css$/,
+          css: {
+            modules: false,
+          }
+        },
+        {
+          include: /\.module\.css$/,
+          css: {
+            modules: true,
+          }
+        },
+      ]
     }
   }
 }
