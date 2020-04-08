@@ -1,6 +1,6 @@
 {
-  "name": "@rsb/example",
-  "version": "1.0.1",
+  "name": "example",
+  "version": "1.0.2",
   "description": "component React component",
   "main": "lib/index.js",
   "module": "es/index.js",
