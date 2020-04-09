@@ -8,6 +8,7 @@
 ###### branches description:
   * master - this branch with example of two components (Example1 and Example2)
   * reactUmdExample - example of using UMD module created in master branch
+  * singleComponent & multiComponents - old branches/ Don't use it!
 
   [nwb documentation](https://github.com/insin/nwb#react-components-and-libraries)
 
